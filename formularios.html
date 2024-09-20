@@ -3,12 +3,19 @@
 <head>
     <title>Formularios HTML</title>
 </head>
-<body style="background-color: rgb(63, 136, 129); color: #05342c;">
+<body style="background-color: rgb(63, 136, 129); color: #05342c; text-align: center;">
 
-    <h1 style="text-align: center; color: #b2cdca;">Bienvenido al mejor grupo de TalentoTech</h1>
-    <img src = "https://concepto.de/wp-content/uploads/2018/08/software-de-sistema-1-e1534948748523.jpg" style="width: 500px; height: auto;">
-    <form action="http://35.193.82.16/submit.php" method="post" style="background-color: #d5d7e5; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(160, 118, 118, 0.2); max-width: 400px; margin: auto; margin-top: 50px;">    
-    <form action="http://35.193.82.16/submit.php" method="post" style="background-color: #d5d7e5; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(160, 118, 118, 0.2); max-width: 400px; margin: auto; margin-top: 50px;">
+    <h1 style="color: #b2cdca;">Bienvenido al mejor grupo de TalentoTech</h1>
+    
+    <table style="width: 100%;">
+        <tr>
+            <td style="text-align: center;">
+                <img src="https://concepto.de/wp-content/uploads/2018/08/software-de-sistema-1-e1534948748523.jpg" style="width: 500px; height: auto;">
+            </td>
+        </tr>
+    </table>
+
+    <form action="http://35.193.82.16/submit.php" method="post" style="background-color: #d5d7e5; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(160, 118, 118, 0.2); max-width: 400px; margin: auto; margin-top: 20px;">
         <label for="nombre" style="font-weight: bold;">Nombre:</label>
         <input type="text" id="nombre" name="nombre" style="border: 2px solid #00897b; border-radius: 4px; padding: 10px; width: calc(100% - 22px); margin-bottom: 15px;"><br>  
         
@@ -17,6 +24,7 @@
         
         <input type="submit" value="Enviar" style="background-color: #3b5d71; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; width: 100%;">
     </form>
+    
 </body>
 </html>
 
