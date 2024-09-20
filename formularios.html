@@ -2,51 +2,22 @@
 <html>
 <head>
     <title>Formularios HTML</title>
-    <style>
-        body {
-            background-color: #e0f7fa; 
-            color: #004d40; 
-            font-family: Arial, sans-serif; 
-        }
-        form {
-            background-color: #ffffff; 
-            padding: 30px; 
-            border-radius: 10px; 
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            max-width: 400px; 
-            margin: auto; 
-            margin-top: 50px;
-        }
-        input[type="text"], input[type="password"] {
-            border: 2px solid #00897b; 
-            border-radius: 4px; 
-            padding: 10px; 
-            width: calc(100% - 22px); 
-            margin-bottom: 10px; 
-        }
-        input[type="submit"] {
-            background-color: #4CAF50; 
-            color: white; 
-            border: none; 
-            padding: 10px 15px; 
-            border-radius: 5px; 
-            cursor: pointer;
-        }
-        input[type="submit"]:hover {
-            background-color: #43a047; 
-            transform: scale(1.05); 
-        }
-    </style>
 </head>
-<body>
-    <form action="http://35.193.82.16/submit.php" method="post">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre"><br>  
-        <label for="clave">Clave:</label>
-        <input type="password" id="clave" name="clave"><br>
-        <input type="submit" value="Enviar">
+<body style="background-color: #e0f7fa; color: #004d40;">
+
+    <h1 style="text-align: center; color: #00796b;">Bienvenido</h1>
+    
+    <form action="http://35.193.82.16/submit.php" method="post" style="background-color: #ffffff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); max-width: 400px; margin: auto; margin-top: 50px;">
+        <label for="nombre" style="font-weight: bold;">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" style="border: 2px solid #00897b; border-radius: 4px; padding: 10px; width: calc(100% - 22px); margin-bottom: 15px;"><br>  
+        
+        <label for="clave" style="font-weight: bold;">Clave:</label>
+        <input type="password" id="clave" name="clave" style="border: 2px solid #00897b; border-radius: 4px; padding: 10px; width: calc(100% - 22px); margin-bottom: 15px;"><br>
+        
+        <input type="submit" value="Enviar" style="background-color: #4CAF50; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; width: 100%;">
     </form>
 </body>
 </html>
+
 
 
