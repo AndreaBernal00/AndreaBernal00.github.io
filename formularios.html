@@ -1,6 +1,32 @@
 <html>
   <head>
     <title>Formularios HTML</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Color de fondo de la página */
+            color: #333; /* Color del texto */
+            font-family: Arial, sans-serif; /* Fuente del texto */
+        }
+        form {
+            background-color: #fff; /* Color de fondo del formulario */
+            padding: 20px; /* Espaciado interior */
+            border-radius: 5px; /* Bordes redondeados */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+            max-width: 300px; /* Ancho máximo del formulario */
+            margin: auto; /* Centrar el formulario */
+        }
+        input[type="submit"] {
+            background-color: #4CAF50; /* Color del botón */
+            color: white; /* Color del texto del botón */
+            border: none; /* Sin borde */
+            padding: 10px 15px; /* Espaciado interior del botón */
+            border-radius: 5px; /* Bordes redondeados del botón */
+            cursor: pointer; /* Cambia el cursor al pasar por encima */
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049; /* Color al pasar el cursor */
+        }
+    </style>
   </head>
   <body>
     <form action="http://35.193.82.16/submit.php" method="post" >
